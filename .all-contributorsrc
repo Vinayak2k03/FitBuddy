@@ -1,0 +1,133 @@
+{
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": false,
+  "commitConvention": "angular",
+  "contributors": [
+    {
+      "login": "mepox",
+      "name": "mepox",
+      "avatar_url": "https://avatars.githubusercontent.com/u/21198248?v=4",
+      "profile": "https://mepox.github.io/",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "haseeb-xd",
+      "name": "Haseeb Ansari",
+      "avatar_url": "https://avatars.githubusercontent.com/u/47222685?v=4",
+      "profile": "https://www.linkedin.com/in/haseebansari/",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "isKaled",
+      "name": "isKaled",
+      "avatar_url": "https://avatars.githubusercontent.com/u/99230637?v=4",
+      "profile": "https://github.com/isKaled",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "ujwalkumar1995",
+      "name": "Ujwal Kumar",
+      "avatar_url": "https://avatars.githubusercontent.com/u/20976813?v=4",
+      "profile": "https://github.com/ujwalkumar1995",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "keer-0",
+      "name": "Keerthi Sai Maganti",
+      "avatar_url": "https://avatars.githubusercontent.com/u/54258313?v=4",
+      "profile": "https://github.com/keer-0",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "SwethaTamatam",
+      "name": "SwethaTamatam",
+      "avatar_url": "https://avatars.githubusercontent.com/u/109732475?v=4",
+      "profile": "https://github.com/SwethaTamatam",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "dmitriydb",
+      "name": "dmitriydb",
+      "avatar_url": "https://avatars.githubusercontent.com/u/77714869?v=4",
+      "profile": "https://github.com/dmitriydb",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "gaurav9777",
+      "name": "Gaurav_mango",
+      "avatar_url": "https://avatars.githubusercontent.com/u/62351253?v=4",
+      "profile": "https://github.com/gaurav9777",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "hrandhawa13",
+      "name": "Harmanjit",
+      "avatar_url": "https://avatars.githubusercontent.com/u/25377542?v=4",
+      "profile": "https://github.com/hrandhawa13",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "MaximoVincente",
+      "name": "Maximo Vincente Mejia  ",
+      "avatar_url": "https://avatars.githubusercontent.com/u/103771906?v=4",
+      "profile": "https://github.com/MaximoVincente",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "mtorres6739",
+      "name": "Mathew Torres",
+      "avatar_url": "https://avatars.githubusercontent.com/u/104056426?v=4",
+      "profile": "http://linkedin.com/in/mathewtorres",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "iravimandalia",
+      "name": "Ravi Mandalia",
+      "avatar_url": "https://avatars.githubusercontent.com/u/28585939?v=4",
+      "profile": "https://github.com/iravimandalia",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "cerrussell",
+      "name": "cerrussell",
+      "avatar_url": "https://avatars.githubusercontent.com/u/80227828?v=4",
+      "profile": "https://github.com/cerrussell",
+      "contributions": [
+        "code"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7,
+  "skipCi": true,
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "projectName": "fitbuddy",
+  "projectOwner": "mepox"
+}
