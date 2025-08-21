@@ -1,0 +1,12 @@
+services:
+  - type: web
+    name: fitbuddy
+    env: java
+    buildCommand: "./mvnw clean package -DskipTests"
+    startCommand: "java -Xmx512m -jar target/fitbuddy-0.0.1-SNAPSHOT.jar"
+    plan: free
+    envVars:
+      - key: SPRING_PROFILES_ACTIVE
+        value: production
+      - key: SERVER_PORT
+        value: 10000
