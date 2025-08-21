@@ -1,6 +1,7 @@
 services:
   - type: web
     name: fitbuddy
+    env: docker
     plan: free
     envVars:
       - key: SPRING_PROFILES_ACTIVE
