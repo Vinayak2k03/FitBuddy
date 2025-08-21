@@ -1,9 +1,6 @@
 services:
   - type: web
     name: fitbuddy
-    runtime: java
-    buildCommand: "./mvnw clean package -DskipTests"
-    startCommand: "java -Xmx512m -jar target/fitbuddy-0.0.1-SNAPSHOT.jar"
     plan: free
     envVars:
       - key: SPRING_PROFILES_ACTIVE
