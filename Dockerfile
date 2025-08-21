@@ -1,22 +1,27 @@
-FROM openjdk:11-jre-slim
+# Multi-stage build: Build stage
+FROM maven:3.8.6-openjdk-11-slim AS build
 
 WORKDIR /app
 
-# Copy Maven wrapper and pom.xml first for better caching
-COPY mvnw mvnw.cmd pom.xml ./
-COPY .mvn .mvn
+# Copy pom.xml first for better layer caching
+COPY pom.xml .
 
-# Make mvnw executable
-RUN chmod +x mvnw
+# Download dependencies (this layer will be cached if pom.xml doesn't change)
+RUN mvn dependency:go-offline -B
 
 # Copy source code
 COPY src src
 
 # Build the application
-RUN ./mvnw clean package -DskipTests
+RUN mvn clean package -DskipTests
 
-# Copy the built JAR
-RUN cp target/fitbuddy-0.0.1-SNAPSHOT.jar app.jar
+# Runtime stage
+FROM openjdk:11-jre-slim
+
+WORKDIR /app
+
+# Copy the built JAR from build stage
+COPY --from=build /app/target/fitbuddy-0.0.1-SNAPSHOT.jar app.jar
 
 # Expose port
 EXPOSE 8080
